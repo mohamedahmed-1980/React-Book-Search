@@ -1,0 +1,30 @@
+{
+  "name": "React-Book-Search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.12.2",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedahmed-1980/React-Book-Search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedahmed-1980/React-Book-Search/issues"
+  },
+  "homepage": "https://github.com/mohamedahmed-1980/React-Book-Search#readme"
+}
